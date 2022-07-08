@@ -1,0 +1,9 @@
+{
+	"name": "kennedy-da",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10c131dc-9910-4565-8163-9d74c474fd52",
+		"tenantId": "93c8a1c5-1468-471c-813a-270284eb2f33"
+	}
+}

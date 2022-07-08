@@ -1,0 +1,65 @@
+{
+	"name": "cities",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cities.csv",
+				"container": "containerteste"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "LatD",
+				"type": "String"
+			},
+			{
+				"name": " \"LatM\"",
+				"type": "String"
+			},
+			{
+				"name": " \"LatS\"",
+				"type": "String"
+			},
+			{
+				"name": " \"NS\"",
+				"type": "String"
+			},
+			{
+				"name": " \"LonD\"",
+				"type": "String"
+			},
+			{
+				"name": " \"LonM\"",
+				"type": "String"
+			},
+			{
+				"name": " \"LonS\"",
+				"type": "String"
+			},
+			{
+				"name": " \"EW\"",
+				"type": "String"
+			},
+			{
+				"name": " \"City\"",
+				"type": "String"
+			},
+			{
+				"name": " \"State\"",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
